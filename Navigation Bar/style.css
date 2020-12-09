@@ -1,0 +1,26 @@
+#navcont{
+    background-image: url('./download.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#navbody{
+    margin-left: 450px;
+    margin-top: -22px;
+}
+
+.nav-link{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #151E68 !important;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 900 !important;
+}
+
+#ele{
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
