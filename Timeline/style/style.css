@@ -106,7 +106,8 @@
 #ship {
   position: absolute;
   z-index: -1;
-  animation: myfirst 10s forwards 3s;
+  opacity: 0;
+  animation: myfirst 7s linear 3s;
 }
 @keyframes myfirst {
   0% {
@@ -115,20 +116,28 @@
     opacity: 1;
   }
   25% {
-    left: 16vw;
+    left: 12vw;
     top: 0px;
     opacity: 1;
   }
   50% {
-    left: 32vw;
+    left: 24vw;
     top: 0px;
     opacity: 1;
   }
   75% {
-    left: 48vw;
+    left: 36vw;
     top: 0px;
   }
+  98% {
+    left: 48vw;
+    top: 0px;
+    opacity: 1;
+  }
+
   100% {
+    left: 48vw;
+    top: 0px;
     opacity: 0;
   }
 }
@@ -137,7 +146,7 @@
   position: absolute;
   z-index: -1;
   opacity: 0;
-  animation: mysecond 10s linear 12s;
+  animation: mysecond 8s linear 10s;
 }
 @keyframes mysecond {
   0% {
@@ -157,6 +166,11 @@
   }
   75% {
     left: -36vw;
+    top: 0px;
+    opacity: 1;
+  }
+  99% {
+    left: -48vw;
     top: 0px;
     opacity: 1;
   }
