@@ -102,3 +102,59 @@
 .container .p {
   color: aliceblue;
 }
+
+#ship {
+  position: absolute;
+  z-index: -1;
+  animation: myfirst 10s linear 3s;
+}
+@keyframes myfirst {
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    left: 12vw;
+    top: 0px;
+  }
+  50% {
+    left: 24vw;
+    top: 0px;
+  }
+  75% {
+    left: 36vw;
+    top: 0px;
+  }
+  100% {
+    left: 48vw;
+    top: 0px;
+  }
+}
+
+#ship2 {
+  position: absolute;
+  z-index: -1;
+  animation: mysecond 10s linear 13s;
+}
+@keyframes mysecond {
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    left: -12vw;
+    top: 0px;
+  }
+  50% {
+    left: -24vw;
+    top: 0px;
+  }
+  75% {
+    left: -36vw;
+    top: 0px;
+  }
+  100% {
+    left: -48vw;
+    top: 0px;
+  }
+}
