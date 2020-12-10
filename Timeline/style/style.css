@@ -1,5 +1,5 @@
 #intro {
-  background: url("../img/cover.svg") no-repeat center center;
+  background: url("../img/cover.jpg") no-repeat center center;
   width: 100vw;
   height: 100vh;
 }
@@ -19,7 +19,7 @@
 .how-it-works.row .col-2::after {
   content: "";
   position: absolute;
-  border-left: 3px solid #3e82fc;
+  border-left: 3px solid #fdd835;
   z-index: 1;
 }
 .how-it-works.row .col-2.bottom::after {
@@ -42,7 +42,7 @@
   height: 40px;
 }
 .timeline hr {
-  border-top: 3px solid #3e82fc;
+  border-top: 3px solid #fdd835;
   margin: 0;
   top: 17px;
   width: 100%;
@@ -50,7 +50,7 @@
 }
 
 .timeline .point hr {
-  border-top: 3px solid #3e82fc;
+  border-top: 3px solid #fdd835;
   margin: 0;
   top: 17px;
   width: 100%;
@@ -63,7 +63,7 @@
   padding: 0px 0px;
   bottom: 12px;
   border-radius: 25px;
-  font-size: 1px;
+  font-size: 25px;
   text-align: center;
   position: relative;
 }
@@ -77,7 +77,7 @@
 }
 
 .timeline .corner {
-  border: 3px solid #3e82fc;
+  border: 3px solid #fdd835;
   width: 100%;
   position: relative;
   border-radius: 15px;
