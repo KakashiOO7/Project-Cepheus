@@ -29,8 +29,14 @@
 }
 .how-it-works.row .col-2.full::after {
   height: 100%;
-  left: calc(50% - 3px);
+  left: calc(50% - 2px);
 }
+
+.how-it-works.row .col-2.complete::after {
+  height: 100%;
+  left: calc(50% - 0px);
+}
+
 .how-it-works.row .col-2.top::after {
   height: 50%;
   left: 50%;
@@ -146,7 +152,7 @@
   position: absolute;
   z-index: -1;
   opacity: 0;
-  animation: mysecond 8s linear 10s;
+  animation: mysecond 7s linear 10s;
 }
 @keyframes mysecond {
   0% {
